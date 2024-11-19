@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://your-railway-backend-url.com/api",
+  baseURL: "https://lunch-backend-production.up.railway.app/api",
 });
 
 export const fetchOptions = () => api.get("/options");
