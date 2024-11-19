@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { fetchOptions, saveOptions, exportChoices, manageUsers } from "../utils/api";
 import AdminCalendar from "../components/Calendar/AdminCalendar";
-import "../styles/Admin.css";
 
 const AdminPanel = () => {
   const [options, setOptions] = useState({});
