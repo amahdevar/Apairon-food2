@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { fetchOptions, savePreferences } from "../utils/api";
 import UserCalendar from "../components/Calendar/UserCalendar";
-import "../styles/User.css";
 
 const UserPanel = () => {
   const [options, setOptions] = useState({});
