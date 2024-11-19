@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "next": "^13.4.10", // or the latest stable version
+    "react": "^18.2.0", // or the latest stable version
+    "react-dom": "^18.2.0" // or the latest stable version
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}
